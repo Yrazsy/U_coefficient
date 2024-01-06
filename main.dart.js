@@ -12674,8 +12674,9 @@ _.b=c
 _.c=null},
 a6o:function a6o(a,b){this.a=a
 this.b=b},
-wi:function wi(a,b){this.f=a
-this.a=b},
+wi:function wi(a,b,c){this.f=a
+this.ch=b
+this.a=c},
 pz:function pz(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.d=a
 _.e=b
@@ -47068,8 +47069,8 @@ f=A.bJ(a,B.k4,f).w
 f=f.f.d!==0?0:i
 k=q.w.vk(f)
 if(l.d<=0)j.a.toString
-j.a.toString
-return new A.Nk(!1,new A.wo(A.p2(B.an,i,A.jT(j.ch,new A.a0j(h,j,!1,l,k,s,r),i),B.x,g.go,0,i,i,i,i,i,B.iW),i),i)}}
+f=j.a.ch
+return new A.Nk(!1,new A.wo(A.p2(B.an,i,A.jT(j.ch,new A.a0j(h,j,!1,l,k,s,r),i),B.x,f,0,i,i,i,i,i,B.iW),i),i)}}
 A.a0i.prototype={
 $0(){this.a.z=this.b},
 $S:0}
@@ -73021,7 +73022,7 @@ A.v6.prototype={
 ae(){return new A.LA(B.k)}}
 A.LA.prototype={
 M(a){var s=null
-return new A.wi(A.td(A.a([new A.iJ(B.EA,"Wsp\xf3\u0142czynnik przenikania ciep\u0142a dla pod\u0142ogi na gruncie",B.Df,"Grubo\u015b\u0107 dla warstwy pod\u0142ogi na gruncie",0.25,s),new A.iJ(B.Ea,"Wsp\xf3\u0142czynnik przenikania ciep\u0142a dla \u015bciany zewn\u0119trznej",B.Dd,"Grubo\u015b\u0107 dla warstwy \u015bciany zewn\u0119trznej",0.2,s),new A.iJ(B.Fm,"Wsp\xf3\u0142czynnik przenikania ciep\u0142a dla dachu",B.Db,"Grubo\u015b\u0107 dla warstwy dachu",0.15,s),new A.iJ(B.Eb,"Wsp\xf3\u0142czynnik przenikania ciep\u0142a dla okien",B.Dc,"Ilo\u015b\u0107 okien",0.9,s),new A.iJ(B.Fi,"Wsp\xf3\u0142czynnik przenikania ciep\u0142a dla drzwi",B.Dg,"Ilo\u015b\u0107 drzwi",1.3,s)],t.E),B.c_,B.bP),s)}}
+return new A.wi(A.td(A.a([new A.iJ(B.EA,"Wsp\xf3\u0142czynnik przenikania ciep\u0142a dla pod\u0142ogi na gruncie",B.Df,"Grubo\u015b\u0107 dla warstwy pod\u0142ogi na gruncie",0.25,s),new A.iJ(B.Ea,"Wsp\xf3\u0142czynnik przenikania ciep\u0142a dla \u015bciany zewn\u0119trznej",B.Dd,"Grubo\u015b\u0107 dla warstwy \u015bciany zewn\u0119trznej",0.2,s),new A.iJ(B.Fm,"Wsp\xf3\u0142czynnik przenikania ciep\u0142a dla dachu",B.Db,"Grubo\u015b\u0107 dla warstwy dachu",0.15,s),new A.iJ(B.Eb,"Wsp\xf3\u0142czynnik przenikania ciep\u0142a dla okien",B.Dc,"Ilo\u015b\u0107 okien",0.9,s),new A.iJ(B.Fi,"Wsp\xf3\u0142czynnik przenikania ciep\u0142a dla drzwi",B.Dg,"Ilo\u015b\u0107 drzwi",1.3,s)],t.E),B.c_,B.bP),B.j,s)}}
 A.b2.prototype={
 bk(a){var s=a.a,r=this.a
 r[15]=s[15]
